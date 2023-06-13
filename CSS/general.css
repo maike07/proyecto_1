@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/*Style section for the header*/
+
+header {
+    align-items: center;
+    background: #000;
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header nav {
+    align-content: center;
+    display: flex;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    justify-content: space-around;
+    line-height: 44px;
+    width: 100%;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #d808d8;
+    cursor: pointer;
+    transition: color 2s;
+}
+
+html {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+.logo {
+    display: flex;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    height: 50%;
+    justify-content: left;
+    line-height: 44px;
+    width: 60%;
+}
+
+.btn-dark {
+    background-color: #6D214F;
+    color: #ffffff;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn-dark:hover {
+    cursor: pointer;
+    background-color: #B33771;
+    color: black;
+}
+
+.btn-light {
+    background-color: transparent;
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    border: #ffffff 1px solid;
+    border-radius: 6px;
+}
+
+.btn-light:hover {
+    cursor: pointer;
+    color: #CAD3C8;
+}
